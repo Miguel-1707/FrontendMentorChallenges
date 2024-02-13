@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin-top: 30px;
+    background-color: white;
+    width: 80%; /* Ancho predeterminado para pantallas medianas */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 25px;
+    border-radius: 15px;
+}
+
+.img {
+    border-radius: 15px;
+    width: 100%; /* La imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* La altura se ajusta automáticamente */
+}
+
+.h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    letter-spacing: 2px;
+    text-align: center; /* Centrar el texto */
+}
+.par {
+    font-family: "Outfit", serif;
+    font-weight: 400;
+    font-size: 14px; /* Ajustar tamaño de fuente */
+    margin: 0;
+    text-align: center; /* Centrar el texto */
+}
+
+
+.rose{
+    background-color: hsl(330, 100%, 98%);
+    margin-top:20px;
+    padding-right: 7px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius:10px;
+}
+.h4{
+    margin: 0;
+    padding-left:22px;
+    padding-bottom: 0px;
+    color:hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+}
+
+.prep{
+    margin-top: 10px;
+    margin-bottom: 6px;
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+}
+
+ul li {
+    padding-left: 20px;
+    padding-bottom: 9px;
+    margin-top: 0px;
+}
+
+ul li::marker{
+    color: hsl(332, 51%, 32%); /* Cambia el color de las viñetas */
+}
+
+.b{
+    font-weight: bold;
+}
+
+.hingr{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    font-weight: 400;
+}
+.ingr{
+    padding-left: 18px;
+}
+
+.ingredients{
+    font-family: "Outfit", serif;
+    font-size: 13px;
+    padding-left: 10px;
+
+}
+
+hr{
+    border: none; /* Elimina el borde predeterminado */
+    border-top: 0.5px solid black; /* Establece el grosor de la línea */
+}
+
+.instructions{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 0px;
+}
+
+.orden{
+    margin-top: 20px;
+    padding-left:20px;
+}
+
+.istr{
+    padding-left: 10px;
+    font-family: "Outfit", serif;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+ol li::marker{
+    color: hsl(332, 51%, 32%); /* Cambia el color de las viñetas */
+}
+
+.nutrition{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 10px;
+}
+
+.shows{
+    font-family: "Outfit", serif;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: "Outfit", serif;
+    font-size: 14px;
+  }
+
+  .rig{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  @media screen and (max-width: 375px) {
+    .main {
+        width: 95%; /* Ajustar ancho para dispositivos móviles */
+    }
+
+    .par {
+        font-size: 12px; /* Ajustar tamaño de fuente para dispositivos móviles */
+    }
+}
