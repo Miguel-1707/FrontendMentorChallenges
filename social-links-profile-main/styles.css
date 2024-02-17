@@ -1,0 +1,104 @@
+/*Importacion de fuentes...*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/*Estilos Generales........*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.label{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    max-width: 340px;
+    max-height: 527px;
+    margin: auto;
+    height: 77vh;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.avatar{
+    width: 25%;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.name{
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+    margin-top: 1.7rem;
+    margin-bottom: 0px;
+}
+
+.living{
+    color: hsl(75, 94%, 57%);
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+}
+
+.job{
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    flex-grow: 1;
+}
+
+.button{
+    background-color: hsl(0, 0%, 20%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 90px;
+    margin: 7px 0px;
+    font-weight: 500;
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 12px 90px;
+    margin: 7px 0px;
+    font-weight: bold;
+    flex-grow: 1;
+    width: 100%;
+    height:auto;
+}
+
+@media screen and (max-width: 375px) {
+    .label{
+        width:100%;
+        min-width: none;
+    }
+}
