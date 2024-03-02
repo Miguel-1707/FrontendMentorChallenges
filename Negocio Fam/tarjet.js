@@ -1,5 +1,5 @@
 console.log("El archivo JavaScript se está ejecutando correctamente.");
-import { Analytics } from "@vercel/analytics/react"
+//import { Analytics } from "@vercel/analytics/react"
 
 const btnHome = document.getElementById("home");
 const btnMenu = document.getElementById("menu");
