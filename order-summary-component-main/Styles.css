@@ -1,0 +1,37 @@
+/*Importación de fuentes................*/
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/*Fin de importacion de fuentes.........*/
+
+/*Estilos Generales de la pagina........*/
+*, html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Red hat display", sans-serif;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body{
+    background-image:url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.artic{
+    width: 30%;
+    height: auto;
+}
+
+.music{
+    width: 10%;
+    height: auto;
+}
+/*Fin de estilos generales de la pagina.*/
+
+/*MediaQuerys...........................*/
+
+/*Fin MediaQuerys.......................*/
